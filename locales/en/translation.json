@@ -1,0 +1,138 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error loading data"
+  },
+  "banner": {
+    "title": "Innovative Technology Solutions",
+    "subtitle": "We develop unique digital products to solve complex problems.",
+    "pillars": {
+      "experience": {
+        "title": "Experience",
+        "description": "Over 10 years developing technology solutions"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Combining emerging technologies with proven methodologies"
+      },
+      "quality": {
+        "title": "Quality",
+        "description": "Committed to excellence in every project"
+      }
+    }
+  },
+  "ready2work": {
+    "title": "Ready2Work",
+    "description": "Our work methodology is designed to facilitate integration with your team and accelerate the development of your project.",
+    "howItWorks": "How It Works",
+    "steps": {
+      "step1": {
+        "title": "Analysis",
+        "description": "We evaluate your needs to fully understand the requirements and scope of the project."
+      },
+      "step2": {
+        "title": "Proposal",
+        "description": "We develop a customized solution tailored to your specific objectives."
+      },
+      "step3": {
+        "title": "Implementation",
+        "description": "We execute the solution with an agile approach, adapting to changes and priorities."
+      },
+      "step4": {
+        "title": "Follow-up",
+        "description": "We provide continuous support and improvements to keep your solution optimized."
+      }
+    },
+    "differentiators": {
+      "title": "Our Differentiators",
+      "item1": {
+        "title": "Agile Methodology",
+        "description": "We adapt our approach to respond quickly to your changing needs."
+      },
+      "item2": {
+        "title": "Specialized Team",
+        "description": "We have experts in development, design, and digital strategy."
+      },
+      "item3": {
+        "title": "Customized Approach",
+        "description": "Each solution is specifically designed for your unique objectives."
+      },
+      "item4": {
+        "title": "Continuous Support",
+        "description": "We accompany you throughout the entire lifecycle of your project."
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "strategy": {
+      "title": "Digital Strategy",
+      "items": [
+        "Technology consulting",
+        "Digital transformation",
+        "Product roadmap",
+        "Competitive analysis"
+      ]
+    },
+    "development": {
+      "title": "Software Development",
+      "items": [
+        "Web and mobile applications",
+        "Enterprise systems",
+        "API integrations",
+        "Custom development"
+      ]
+    },
+    "design": {
+      "title": "UX/UI Design",
+      "items": [
+        "User research",
+        "Prototypes and wireframes",
+        "Visual design",
+        "Usability testing"
+      ]
+    }
+  },
+  "faas": {
+    "title": "Freelancer as a Service (FaaS)",
+    "description": "FaaS (Freelancer as a Service) is not a network of freelancers, but a consolidated work team with more than four years of experience collaborating together. Our model adapts to the growth and needs of each client, strategically expanding the team according to project requirements. We always maintain direct control of the team, tasks, and in-house projects, ensuring efficient management without resorting to subcontracting or outsourcing.",
+    "features": {
+      "team": {
+        "title": "Consolidated Team",
+        "description": "Over 4 years working together"
+      },
+      "scalability": {
+        "title": "Scalability",
+        "description": "Adaptation according to needs"
+      },
+      "control": {
+        "title": "Direct Control",
+        "description": "Efficient in-house management"
+      }
+    }
+  },
+  "footer": {
+    "companyDescription": "We create innovative technological solutions to transform your ideas into reality. Our team of experts is committed to providing quality and excellence in every project.",
+    "contactInfo": "Contact Information",
+    "address": {
+      "line1": "123 Main Street",
+      "line2": "28001 Madrid, Spain"
+    },
+    "phone": "+34 912 345 678",
+    "email": "info@mentapixel.com",
+    "hours": {
+      "title": "Office Hours",
+      "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
+      "weekends": "Closed on weekends"
+    },
+    "copyright": "© 2023 Mentapixel. All rights reserved.",
+    "slogan": "Transforming ideas into digital solutions"
+  },
+  "languageSelector": {
+    "languages": {
+      "es": "Spanish",
+      "en": "English",
+      "de": "German"
+    }
+  }
+} 
