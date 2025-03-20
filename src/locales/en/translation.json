@@ -1,0 +1,140 @@
+{
+  "banner": {
+    "title": "All-in-One Plan",
+    "subtitle": "A comprehensive agency where design, programming, and artificial intelligence are integrated.",
+    "pillars": {
+      "design": {
+        "title": "Design",
+        "description": "Creation of attractive and usable interfaces"
+      },
+      "programming": {
+        "title": "Programming",
+        "description": "Development of robust and scalable software"
+      },
+      "ai": {
+        "title": "Artificial Intelligence",
+        "description": "Integration of intelligent solutions to enhance the digital experience"
+      }
+    }
+  },
+  "ready2work": {
+    "title": "Ready2Work",
+    "description": "Ready2Work: a social initiative by MentaPixel. It's an innovative platform designed to efficiently and effectively connect companies with developers. Through a unique matching system, we create work teams composed of specialists with complementary skills, adapted to the specific needs of each project.",
+    "howItWorks": "How Does It Work?",
+    "steps": {
+      "step1": {
+        "title": "Task Registration",
+        "description": "The company registers a task specifying the required skills."
+      },
+      "step2": {
+        "title": "Filtering and Selection",
+        "description": "Our system filters and selects developers who possess these skills and forms a team."
+      },
+      "step3": {
+        "title": "Team Formation",
+        "description": "A partner or team with complementary skills is created."
+      },
+      "step4": {
+        "title": "Project Management",
+        "description": "A MentaPixel project manager is assigned."
+      }
+    },
+    "differentiator": {
+      "title": "How is Ready2Work different from other platforms?",
+      "point1": "By assembling development teams with complementary skills, the positive completion of the project is ensured. MentaPixel handles project management, freeing up the company's workload.",
+      "point2": "After completing the project, companies could directly hire the developer. MentaPixel assumes responsibility for the development and satisfactory completion of the project, representing 100% security in completion, with no risk for the company."
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "items": {
+      "projectManagement": {
+        "title": "Project Management",
+        "items": [
+          "Comprehensive planning and management of digital projects",
+          "Team coordination and meeting deadlines",
+          "Optimization of processes and workflows"
+        ]
+      },
+      "ai": {
+        "title": "AI Implementation in Mobile and Web Applications",
+        "items": [
+          "Integration of Popular AI APIs (OpenAI, Google AI, AWS AI)",
+          "Enhancing user experience through natural language processing, image recognition, and personalization"
+        ]
+      },
+      "webDev": {
+        "title": "Web Development",
+        "items": [
+          "Frontend Development: JavaScript, Progressive Web Apps (PWA), WordPress Customization",
+          "Backend Development: PHP, Laravel, Python"
+        ]
+      },
+      "integration": {
+        "title": "System Integration & Customization",
+        "items": [
+          "Platform integration",
+          "Development of extensions and plugins",
+          "Custom code for specific functionalities"
+        ]
+      },
+      "transformation": {
+        "title": "Digital Transformation & Optimization",
+        "items": [
+          "Process digitalization (Optimizing business processes)",
+          "Website migration and upgrades",
+          "Software testing (Ensuring quality and performance)"
+        ]
+      },
+      "custom": {
+        "title": "Tailored Solutions & Other Services",
+        "items": [
+          "Custom solutions tailored to the client's needs",
+          "Implementation of specific tech stacks based on the project",
+          "Additional services adapted to special projects"
+        ]
+      }
+    }
+  },
+  "faas": {
+    "title": "Freelancer as a Service (FaaS)",
+    "description": "FaaS (Freelancer as a Service) is not a network of freelancers, but a consolidated work team with more than four years of experience working together. Our model adapts to the growth and needs of each client, strategically expanding the team according to project requirements. We always maintain direct control of both the team and the tasks and projects in-house, ensuring efficient management without resorting to subcontracting or outsourcing.",
+    "features": {
+      "team": {
+        "title": "Consolidated Team",
+        "description": "Over 4 years working together"
+      },
+      "scalability": {
+        "title": "Scalability",
+        "description": "Adaptation according to needs"
+      },
+      "control": {
+        "title": "Direct Control",
+        "description": "Efficient in-house management"
+      }
+    }
+  },
+  "footer": {
+    "companyDescription": "We transform ideas into innovative digital solutions. Our commitment is to create technological experiences that drive your business success.",
+    "contactInfo": "Contact Information",
+    "address": {
+      "line1": "123 Main Ave, Business Tower,",
+      "line2": "15th Floor, Office 1502",
+      "line3": "Mexico City, Mexico"
+    },
+    "phone": "+52 (55) 1234-5678",
+    "email": "contact@mentapixel.com",
+    "hours": {
+      "weekdays": "Monday to Friday: 9:00 AM - 6:00 PM",
+      "weekend": "Saturday: 9:00 AM - 1:00 PM"
+    },
+    "copyright": "All rights reserved.",
+    "slogan": "Digital innovation for your business growth."
+  },
+  "languageSelector": {
+    "language": "Language",
+    "es": "Spanish",
+    "en": "English",
+    "de": "German"
+  }
+} 

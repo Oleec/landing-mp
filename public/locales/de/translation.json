@@ -1,0 +1,138 @@
+{
+  "common": {
+    "loading": "Wird geladen...",
+    "error": "Fehler beim Laden der Daten"
+  },
+  "banner": {
+    "title": "Innovative Technologielösungen",
+    "subtitle": "Wir entwickeln einzigartige digitale Produkte zur Lösung komplexer Probleme.",
+    "pillars": {
+      "experience": {
+        "title": "Erfahrung",
+        "description": "Über 10 Jahre Erfahrung in der Entwicklung von Technologielösungen"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Kombination von neuen Technologien mit bewährten Methoden"
+      },
+      "quality": {
+        "title": "Qualität",
+        "description": "Verpflichtet zu Exzellenz in jedem Projekt"
+      }
+    }
+  },
+  "ready2work": {
+    "title": "Ready2Work",
+    "description": "Unsere Arbeitsmethodik ist darauf ausgerichtet, die Integration mit Ihrem Team zu erleichtern und die Entwicklung Ihres Projekts zu beschleunigen.",
+    "howItWorks": "Wie es funktioniert",
+    "steps": {
+      "step1": {
+        "title": "Analyse",
+        "description": "Wir bewerten Ihre Bedürfnisse, um die Anforderungen und den Umfang des Projekts vollständig zu verstehen."
+      },
+      "step2": {
+        "title": "Vorschlag",
+        "description": "Wir entwickeln eine maßgeschneiderte Lösung, die auf Ihre spezifischen Ziele zugeschnitten ist."
+      },
+      "step3": {
+        "title": "Implementierung",
+        "description": "Wir setzen die Lösung mit einem agilen Ansatz um und passen uns an Änderungen und Prioritäten an."
+      },
+      "step4": {
+        "title": "Nachverfolgung",
+        "description": "Wir bieten kontinuierliche Unterstützung und Verbesserungen, um Ihre Lösung optimiert zu halten."
+      }
+    },
+    "differentiators": {
+      "title": "Unsere Unterscheidungsmerkmale",
+      "item1": {
+        "title": "Agile Methodik",
+        "description": "Wir passen unseren Ansatz an, um schnell auf Ihre sich ändernden Bedürfnisse zu reagieren."
+      },
+      "item2": {
+        "title": "Spezialisiertes Team",
+        "description": "Wir haben Experten in Entwicklung, Design und digitaler Strategie."
+      },
+      "item3": {
+        "title": "Maßgeschneiderter Ansatz",
+        "description": "Jede Lösung ist speziell für Ihre einzigartigen Ziele konzipiert."
+      },
+      "item4": {
+        "title": "Kontinuierliche Unterstützung",
+        "description": "Wir begleiten Sie während des gesamten Lebenszyklus Ihres Projekts."
+      }
+    }
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "strategy": {
+      "title": "Digitale Strategie",
+      "items": [
+        "Technologieberatung",
+        "Digitale Transformation",
+        "Produkt-Roadmap",
+        "Wettbewerbsanalyse"
+      ]
+    },
+    "development": {
+      "title": "Softwareentwicklung",
+      "items": [
+        "Web- und mobile Anwendungen",
+        "Unternehmenssysteme",
+        "API-Integrationen",
+        "Maßgeschneiderte Entwicklung"
+      ]
+    },
+    "design": {
+      "title": "UX/UI-Design",
+      "items": [
+        "Benutzerforschung",
+        "Prototypen und Wireframes",
+        "Visuelles Design",
+        "Usability-Tests"
+      ]
+    }
+  },
+  "faas": {
+    "title": "Freelancer as a Service (FaaS)",
+    "description": "FaaS (Freelancer as a Service) ist kein Netzwerk von Freelancern, sondern ein konsolidiertes Arbeitsteam mit mehr als vier Jahren Erfahrung in der Zusammenarbeit. Unser Modell passt sich dem Wachstum und den Bedürfnissen jedes Kunden an und erweitert das Team strategisch entsprechend den Projektanforderungen. Wir behalten immer die direkte Kontrolle über das Team, die Aufgaben und die internen Projekte und gewährleisten ein effizientes Management ohne Unterauftragsvergabe oder Outsourcing.",
+    "features": {
+      "team": {
+        "title": "Konsolidiertes Team",
+        "description": "Über 4 Jahre gemeinsame Arbeit"
+      },
+      "scalability": {
+        "title": "Skalierbarkeit",
+        "description": "Anpassung nach Bedarf"
+      },
+      "control": {
+        "title": "Direkte Kontrolle",
+        "description": "Effizientes internes Management"
+      }
+    }
+  },
+  "footer": {
+    "companyDescription": "Wir schaffen innovative technologische Lösungen, um Ihre Ideen in die Realität umzusetzen. Unser Expertenteam ist bestrebt, Qualität und Exzellenz in jedem Projekt zu bieten.",
+    "contactInfo": "Kontaktinformation",
+    "address": {
+      "line1": "Hauptstraße 123",
+      "line2": "28001 Madrid, Spanien"
+    },
+    "phone": "+34 912 345 678",
+    "email": "info@mentapixel.com",
+    "hours": {
+      "title": "Öffnungszeiten",
+      "weekdays": "Montag - Freitag: 9:00 - 18:00 Uhr",
+      "weekends": "An Wochenenden geschlossen"
+    },
+    "copyright": "© 2023 Mentapixel. Alle Rechte vorbehalten.",
+    "slogan": "Ideen in digitale Lösungen umwandeln"
+  },
+  "languageSelector": {
+    "languages": {
+      "es": "Spanisch",
+      "en": "Englisch",
+      "de": "Deutsch"
+    }
+  }
+} 

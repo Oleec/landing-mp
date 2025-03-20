@@ -1,69 +1,49 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-
-const services = [
-  {
-    id: 1,
-    icon: "🗂️",
-    title: "Project Management",
-    items: [
-      "Comprehensive planning and management of digital projects",
-      "Team coordination and meeting deadlines",
-      "Optimization of processes and workflows"
-    ]
-  },
-  {
-    id: 2,
-    icon: "🤖",
-    title: "AI Implementation in Mobile and Web Applications",
-    items: [
-      "Integration of Popular AI APIs (OpenAI, Google AI, AWS AI)",
-      "Enhancing user experience through natural language processing, image recognition, and personalization"
-    ]
-  },
-  {
-    id: 3,
-    icon: "💻",
-    title: "Web Development",
-    items: [
-      "Frontend Development: JavaScript, Progressive Web Apps (PWA), WordPress Customization",
-      "Backend Development: PHP Custom Code, Laravel, Python"
-    ]
-  },
-  {
-    id: 4,
-    icon: "🔗",
-    title: "System Integration & Customization",
-    items: [
-      "Platform integration",
-      "Development of extensions and plugins",
-      "Custom code for specific functionalities"
-    ]
-  },
-  {
-    id: 5,
-    icon: "🚀",
-    title: "Digital Transformation & Optimization",
-    items: [
-      "Process digitalization (Optimizing business processes)",
-      "Website migration and upgrades",
-      "Software testing (Ensuring quality and performance)"
-    ]
-  },
-  {
-    id: 6,
-    icon: "💡",
-    title: "Tailored Solutions & Other Services",
-    items: [
-      "Custom solutions tailored to the client's needs",
-      "Implementation of specific tech stacks based on the project",
-      "Additional services adapted to special projects"
-    ]
-  }
-];
+import { useTranslation } from 'react-i18next';
 
 const ServiceSlider = () => {
+  const { t } = useTranslation();
   const [currentSlide, setCurrentSlide] = useState(0);
+
+  const services = [
+    {
+      id: 1,
+      icon: "🗂️",
+      titleKey: "services.items.projectManagement.title",
+      itemsKey: "services.items.projectManagement.items"
+    },
+    {
+      id: 2,
+      icon: "🤖",
+      titleKey: "services.items.ai.title",
+      itemsKey: "services.items.ai.items"
+    },
+    {
+      id: 3,
+      icon: "💻",
+      titleKey: "services.items.webDev.title",
+      itemsKey: "services.items.webDev.items"
+    },
+    {
+      id: 4,
+      icon: "🔗",
+      titleKey: "services.items.integration.title",
+      itemsKey: "services.items.integration.items"
+    },
+    {
+      id: 5,
+      icon: "🚀",
+      titleKey: "services.items.transformation.title",
+      itemsKey: "services.items.transformation.items"
+    },
+    {
+      id: 6,
+      icon: "💡",
+      titleKey: "services.items.custom.title",
+      itemsKey: "services.items.custom.items"
+    }
+  ];
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % services.length);
@@ -76,7 +56,7 @@ const ServiceSlider = () => {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-16">Our Services</h2>
+        <h2 className="text-4xl font-bold text-center mb-16">{t('services.title')}</h2>
         
         <div className="relative max-w-4xl mx-auto">
           {/* Navigation Buttons */}
@@ -106,9 +86,9 @@ const ServiceSlider = () => {
               >
                 <div className="bg-white p-8 rounded-xl shadow-lg h-full">
                   <div className="text-6xl mb-6">{services[currentSlide].icon}</div>
-                  <h3 className="text-2xl font-bold mb-6">{services[currentSlide].title}</h3>
+                  <h3 className="text-2xl font-bold mb-6">{t(services[currentSlide].titleKey)}</h3>
                   <ul className="space-y-4">
-                    {services[currentSlide].items.map((item, index) => (
+                    {t(services[currentSlide].itemsKey, { returnObjects: true }).map((item, index) => (
                       <motion.li
                         key={index}
                         initial={{ opacity: 0, y: 20 }}

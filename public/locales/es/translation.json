@@ -1,0 +1,138 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error al cargar los datos"
+  },
+  "banner": {
+    "title": "Soluciones Tecnológicas Innovadoras",
+    "subtitle": "Desarrollamos productos digitales únicos para resolver problemas complejos.",
+    "pillars": {
+      "experience": {
+        "title": "Experiencia",
+        "description": "Más de 10 años desarrollando soluciones tecnológicas"
+      },
+      "innovation": {
+        "title": "Innovación",
+        "description": "Combinamos tecnologías emergentes con metodologías probadas"
+      },
+      "quality": {
+        "title": "Calidad",
+        "description": "Comprometidos con la excelencia en cada proyecto"
+      }
+    }
+  },
+  "ready2work": {
+    "title": "Ready2Work",
+    "description": "Nuestra metodología de trabajo está diseñada para facilitar la integración con tu equipo y acelerar el desarrollo de tu proyecto.",
+    "howItWorks": "¿Cómo Funciona?",
+    "steps": {
+      "step1": {
+        "title": "Análisis",
+        "description": "Evaluamos tus necesidades para entender completamente los requerimientos y alcance del proyecto."
+      },
+      "step2": {
+        "title": "Propuesta",
+        "description": "Desarrollamos una solución personalizada adaptada a tus objetivos específicos."
+      },
+      "step3": {
+        "title": "Implementación",
+        "description": "Ejecutamos la solución con un enfoque ágil, adaptándonos a cambios y prioridades."
+      },
+      "step4": {
+        "title": "Seguimiento",
+        "description": "Proporcionamos soporte continuo y mejoras para mantener tu solución optimizada."
+      }
+    },
+    "differentiators": {
+      "title": "Nuestros Diferenciadores",
+      "item1": {
+        "title": "Metodología Ágil",
+        "description": "Adaptamos nuestro enfoque para responder rápidamente a tus necesidades cambiantes."
+      },
+      "item2": {
+        "title": "Equipo Especializado",
+        "description": "Contamos con expertos en desarrollo, diseño y estrategia digital."
+      },
+      "item3": {
+        "title": "Enfoque Personalizado",
+        "description": "Cada solución está diseñada específicamente para tus objetivos únicos."
+      },
+      "item4": {
+        "title": "Soporte Continuo",
+        "description": "Te acompañamos durante todo el ciclo de vida de tu proyecto."
+      }
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "strategy": {
+      "title": "Estrategia Digital",
+      "items": [
+        "Consultoría tecnológica",
+        "Transformación digital",
+        "Roadmap de producto",
+        "Análisis de competencia"
+      ]
+    },
+    "development": {
+      "title": "Desarrollo de Software",
+      "items": [
+        "Aplicaciones web y móviles",
+        "Sistemas empresariales",
+        "Integraciones API",
+        "Desarrollo a medida"
+      ]
+    },
+    "design": {
+      "title": "Diseño UX/UI",
+      "items": [
+        "Investigación de usuarios",
+        "Prototipos y wireframes",
+        "Diseño visual",
+        "Pruebas de usabilidad"
+      ]
+    }
+  },
+  "faas": {
+    "title": "Freelancer as a Service (FaaS)",
+    "description": "FaaS (Freelancer as a Service) no es una red de freelancers, sino un equipo de trabajo consolidado con más de cuatro años de experiencia colaborando juntos. Nuestro modelo se adapta al crecimiento y a las necesidades de cada cliente, ampliando el equipo de forma estratégica según los requerimientos del proyecto. Mantenemos siempre el control directo tanto del equipo como de las tareas y proyectos in-house, garantizando una gestión eficiente sin recurrir a la subcontratación o externalización.",
+    "features": {
+      "team": {
+        "title": "Equipo Consolidado",
+        "description": "Más de 4 años trabajando juntos"
+      },
+      "scalability": {
+        "title": "Escalabilidad",
+        "description": "Adaptación según necesidades"
+      },
+      "control": {
+        "title": "Control Directo",
+        "description": "Gestión in-house eficiente"
+      }
+    }
+  },
+  "footer": {
+    "companyDescription": "Creamos soluciones tecnológicas innovadoras para transformar tus ideas en realidad. Nuestro equipo de expertos está comprometido con ofrecer calidad y excelencia en cada proyecto.",
+    "contactInfo": "Información de Contacto",
+    "address": {
+      "line1": "Calle Principal 123",
+      "line2": "28001 Madrid, España"
+    },
+    "phone": "+34 912 345 678",
+    "email": "info@mentapixel.com",
+    "hours": {
+      "title": "Horario de Atención",
+      "weekdays": "Lunes - Viernes: 9:00 - 18:00",
+      "weekends": "Cerrado fines de semana"
+    },
+    "copyright": "© 2023 Mentapixel. Todos los derechos reservados.",
+    "slogan": "Transformando ideas en soluciones digitales"
+  },
+  "languageSelector": {
+    "languages": {
+      "es": "Español",
+      "en": "Inglés",
+      "de": "Alemán"
+    }
+  }
+} 

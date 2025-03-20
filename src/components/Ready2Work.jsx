@@ -1,30 +1,33 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
-const steps = [
-  {
-    icon: "📝",
-    title: "Registro de Tarea",
-    description: "La empresa registra una tarea especificando las habilidades requeridas."
-  },
-  {
-    icon: "🔍",
-    title: "Filtrado y Selección",
-    description: "Nuestro sistema filtra y selecciona los desarrolladores que poseen estas habilidades y arma un equipo."
-  },
-  {
-    icon: "👥",
-    title: "Formación de Equipos",
-    description: "Se crea una pareja o equipo complementario en habilidades."
-  },
-  {
-    icon: "👨‍💼",
-    title: "Dirección del Proyecto",
-    description: "Se asigna un director de proyecto de MentaPixel."
-  }
-];
+import { useTranslation } from 'react-i18next';
 
 const Ready2Work = () => {
+  const { t } = useTranslation();
+  
+  const steps = [
+    {
+      icon: "📝",
+      titleKey: "ready2work.steps.step1.title",
+      descriptionKey: "ready2work.steps.step1.description"
+    },
+    {
+      icon: "🔍",
+      titleKey: "ready2work.steps.step2.title",
+      descriptionKey: "ready2work.steps.step2.description"
+    },
+    {
+      icon: "👥",
+      titleKey: "ready2work.steps.step3.title",
+      descriptionKey: "ready2work.steps.step3.description"
+    },
+    {
+      icon: "👨‍💼",
+      titleKey: "ready2work.steps.step4.title",
+      descriptionKey: "ready2work.steps.step4.description"
+    }
+  ];
+
   return (
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -36,19 +39,19 @@ const Ready2Work = () => {
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-mentadark">Ready2Work</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-mentadark">{t('ready2work.title')}</h2>
           <p className="text-base sm:text-lg text-mentagray leading-relaxed">
-            Ready2Work: es una iniciativa social de MentaPixel. Es una plataforma innovadora diseñada para conectar de manera eficiente y efectiva a las empresas con desarrolladores. A través de un sistema de matching único, creamos equipos de trabajo compuestos por especialistas con habilidades complementarias, adaptados a las necesidades específicas de cada proyecto.
+            {t('ready2work.description')}
           </p>
         </motion.div>
 
         {/* How it Works */}
         <div className="mb-16">
-          <h3 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-mentadark">¿Cómo Funciona?</h3>
+          <h3 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-mentadark">{t('ready2work.howItWorks')}</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {steps.map((step, index) => (
               <motion.div
-                key={step.title}
+                key={step.titleKey}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -56,8 +59,8 @@ const Ready2Work = () => {
                 className="bg-white rounded-lg shadow-md p-4 md:p-6 border border-gray-200 hover:shadow-lg transition-shadow"
               >
                 <div className="text-3xl md:text-4xl mb-3">{step.icon}</div>
-                <h4 className="text-lg md:text-xl font-semibold mb-2 text-mentadark">{step.title}</h4>
-                <p className="text-mentagray">{step.description}</p>
+                <h4 className="text-lg md:text-xl font-semibold mb-2 text-mentadark">{t(step.titleKey)}</h4>
+                <p className="text-mentagray">{t(step.descriptionKey)}</p>
               </motion.div>
             ))}
           </div>
@@ -65,7 +68,7 @@ const Ready2Work = () => {
 
         {/* Differentiators */}
         <div className="max-w-5xl mx-auto">
-          <h3 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-mentadark">¿Cómo se diferencia Ready2Work de otras plataformas?</h3>
+          <h3 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-mentadark">{t('ready2work.differentiator.title')}</h3>
           
           <motion.div
             initial={{ opacity: 0 }}
@@ -76,7 +79,7 @@ const Ready2Work = () => {
           >
             <div className="prose lg:prose-lg">
               <p className="text-mentagray">
-                Al armar equipos de desarrollo complementados en habilidades se asegura la culminación positiva del proyecto. MentaPixel se encarga del project management, liberando la carga laboral de la empresa.
+                {t('ready2work.differentiator.point1')}
               </p>
             </div>
             
@@ -90,7 +93,7 @@ const Ready2Work = () => {
 
             <div className="prose lg:prose-lg md:col-span-2">
               <p className="text-mentagray">
-                Después de finalizar el proyecto, las empresas podrían contratar directamente al desarrollador. MentaPixel asume la responsabilidad del desarrollo y el cumplimiento satisfactorio del proyecto, lo que representa un 100% de seguridad en la culminación, sin riesgo para la empresa.
+                {t('ready2work.differentiator.point2')}
               </p>
             </div>
           </motion.div>

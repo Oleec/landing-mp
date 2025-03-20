@@ -1,6 +1,9 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+  const { t } = useTranslation();
+  
   return (
     <footer className="bg-mentadark text-white py-12">
       <div className="container mx-auto px-4">
@@ -14,47 +17,45 @@ const Footer = () => {
               className="h-12 w-auto mb-4"
             />
             <p className="text-gray-300 max-w-md">
-              Transformamos ideas en soluciones digitales innovadoras. 
-              Nuestro compromiso es crear experiencias tecnológicas 
-              que impulsen el éxito de tu negocio.
+              {t('footer.companyDescription')}
             </p>
           </div>
 
           {/* Columna de Contacto */}
           <div className="flex flex-col md:items-end">
             <h3 className="text-xl font-semibold mb-4 text-mentagreen">
-              Información de Contacto
+              {t('footer.contactInfo')}
             </h3>
             <div className="space-y-3 md:text-right">
               <p className="flex items-center md:justify-end gap-2">
                 <span className="text-mentagreen">📍</span>
                 <span>
-                  Av. Principal 123, Torre Empresarial,
+                  {t('footer.address.line1')}
                   <br />
-                  Piso 15, Oficina 1502
+                  {t('footer.address.line2')}
                   <br />
-                  Ciudad de México, México
+                  {t('footer.address.line3')}
                 </span>
               </p>
               <p className="flex items-center md:justify-end gap-2">
                 <span className="text-mentagreen">📞</span>
-                <span>+52 (55) 1234-5678</span>
+                <span>{t('footer.phone')}</span>
               </p>
               <p className="flex items-center md:justify-end gap-2">
                 <span className="text-mentagreen">✉️</span>
                 <a 
-                  href="mailto:contacto@mentapixel.com"
+                  href={`mailto:${t('footer.email')}`}
                   className="hover:text-mentagreen transition-colors"
                 >
-                  contacto@mentapixel.com
+                  {t('footer.email')}
                 </a>
               </p>
               <p className="flex items-center md:justify-end gap-2">
                 <span className="text-mentagreen">⏰</span>
                 <span>
-                  Lunes a Viernes: 9:00 AM - 6:00 PM
+                  {t('footer.hours.weekdays')}
                   <br />
-                  Sábado: 9:00 AM - 1:00 PM
+                  {t('footer.hours.weekend')}
                 </span>
               </p>
             </div>
@@ -67,10 +68,10 @@ const Footer = () => {
         {/* Derechos Reservados */}
         <div className="text-center text-gray-400">
           <p>
-            © {new Date().getFullYear()} MentaPixel. Todos los derechos reservados.
+            © {new Date().getFullYear()} MentaPixel. {t('footer.copyright')}
             <br />
             <span className="text-sm">
-              Innovación digital para el crecimiento de tu empresa.
+              {t('footer.slogan')}
             </span>
           </p>
         </div>

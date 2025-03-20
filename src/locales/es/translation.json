@@ -1,0 +1,140 @@
+{
+  "banner": {
+    "title": "Plan Todo en Uno",
+    "subtitle": "Una agencia integral donde el diseño, la programación y la inteligencia artificial están integrados.",
+    "pillars": {
+      "design": {
+        "title": "Diseño",
+        "description": "Creación de interfaces atractivas y usables"
+      },
+      "programming": {
+        "title": "Programación",
+        "description": "Desarrollo de software robusto y escalable"
+      },
+      "ai": {
+        "title": "Inteligencia Artificial",
+        "description": "Integración de soluciones inteligentes para potenciar la experiencia digital"
+      }
+    }
+  },
+  "ready2work": {
+    "title": "Ready2Work",
+    "description": "Ready2Work: es una iniciativa social de MentaPixel. Es una plataforma innovadora diseñada para conectar de manera eficiente y efectiva a las empresas con desarrolladores. A través de un sistema de matching único, creamos equipos de trabajo compuestos por especialistas con habilidades complementarias, adaptados a las necesidades específicas de cada proyecto.",
+    "howItWorks": "¿Cómo Funciona?",
+    "steps": {
+      "step1": {
+        "title": "Registro de Tarea",
+        "description": "La empresa registra una tarea especificando las habilidades requeridas."
+      },
+      "step2": {
+        "title": "Filtrado y Selección",
+        "description": "Nuestro sistema filtra y selecciona los desarrolladores que poseen estas habilidades y arma un equipo."
+      },
+      "step3": {
+        "title": "Formación de Equipos",
+        "description": "Se crea una pareja o equipo complementario en habilidades."
+      },
+      "step4": {
+        "title": "Dirección del Proyecto",
+        "description": "Se asigna un director de proyecto de MentaPixel."
+      }
+    },
+    "differentiator": {
+      "title": "¿Cómo se diferencia Ready2Work de otras plataformas?",
+      "point1": "Al armar equipos de desarrollo complementados en habilidades se asegura la culminación positiva del proyecto. MentaPixel se encarga del project management, liberando la carga laboral de la empresa.",
+      "point2": "Después de finalizar el proyecto, las empresas podrían contratar directamente al desarrollador. MentaPixel asume la responsabilidad del desarrollo y el cumplimiento satisfactorio del proyecto, lo que representa un 100% de seguridad en la culminación, sin riesgo para la empresa."
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "items": {
+      "projectManagement": {
+        "title": "Project Management",
+        "items": [
+          "Planificación y gestión integral de proyectos digitales",
+          "Coordinación de equipos y cumplimiento de plazos",
+          "Optimización de procesos y flujos de trabajo"
+        ]
+      },
+      "ai": {
+        "title": "Implementación de IA en Aplicaciones Móviles y Web",
+        "items": [
+          "Integración de APIs de IA populares (OpenAI, Google AI, AWS AI)",
+          "Mejora de la experiencia de usuario a través del procesamiento del lenguaje natural, reconocimiento de imágenes y personalización"
+        ]
+      },
+      "webDev": {
+        "title": "Desarrollo Web",
+        "items": [
+          "Desarrollo Frontend: JavaScript, Progressive Web Apps (PWA), Personalización de WordPress",
+          "Desarrollo Backend: PHP, Laravel, Python"
+        ]
+      },
+      "integration": {
+        "title": "Integración y Personalización de Sistemas",
+        "items": [
+          "Integración de plataformas",
+          "Desarrollo de extensiones y plugins",
+          "Código personalizado para funcionalidades específicas"
+        ]
+      },
+      "transformation": {
+        "title": "Transformación Digital y Optimización",
+        "items": [
+          "Digitalización de procesos (Optimización de procesos de negocio)",
+          "Migración y actualizaciones de sitios web",
+          "Pruebas de software (Garantía de calidad y rendimiento)"
+        ]
+      },
+      "custom": {
+        "title": "Soluciones a Medida y Otros Servicios",
+        "items": [
+          "Soluciones personalizadas adaptadas a las necesidades del cliente",
+          "Implementación de stacks tecnológicos específicos según el proyecto",
+          "Servicios adicionales adaptados a proyectos especiales"
+        ]
+      }
+    }
+  },
+  "faas": {
+    "title": "Freelancer as a Service (FaaS)",
+    "description": "FaaS (Freelancer as a Service) no es una red de freelancers, sino un equipo de trabajo consolidado con más de cuatro años de experiencia colaborando juntos. Nuestro modelo se adapta al crecimiento y a las necesidades de cada cliente, ampliando el equipo de forma estratégica según los requerimientos del proyecto. Mantenemos siempre el control directo tanto del equipo como de las tareas y proyectos in-house, garantizando una gestión eficiente sin recurrir a la subcontratación o externalización.",
+    "features": {
+      "team": {
+        "title": "Equipo Consolidado",
+        "description": "Más de 4 años trabajando juntos"
+      },
+      "scalability": {
+        "title": "Escalabilidad",
+        "description": "Adaptación según necesidades"
+      },
+      "control": {
+        "title": "Control Directo",
+        "description": "Gestión in-house eficiente"
+      }
+    }
+  },
+  "footer": {
+    "companyDescription": "Transformamos ideas en soluciones digitales innovadoras. Nuestro compromiso es crear experiencias tecnológicas que impulsen el éxito de tu negocio.",
+    "contactInfo": "Información de Contacto",
+    "address": {
+      "line1": "Av. Principal 123, Torre Empresarial,",
+      "line2": "Piso 15, Oficina 1502",
+      "line3": "Ciudad de México, México"
+    },
+    "phone": "+52 (55) 1234-5678",
+    "email": "contacto@mentapixel.com",
+    "hours": {
+      "weekdays": "Lunes a Viernes: 9:00 AM - 6:00 PM",
+      "weekend": "Sábado: 9:00 AM - 1:00 PM"
+    },
+    "copyright": "Todos los derechos reservados.",
+    "slogan": "Innovación digital para el crecimiento de tu empresa."
+  },
+  "languageSelector": {
+    "language": "Idioma",
+    "es": "Español",
+    "en": "Inglés",
+    "de": "Alemán"
+  }
+} 

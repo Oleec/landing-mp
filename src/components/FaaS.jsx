@@ -1,7 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const FaaS = () => {
+  const { t } = useTranslation();
+  
   return (
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
@@ -12,10 +15,10 @@ const FaaS = () => {
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto text-center"
         >
-          <h2 className="text-4xl font-bold mb-8">Freelancer as a Service (FaaS)</h2>
+          <h2 className="text-4xl font-bold mb-8">{t('faas.title')}</h2>
           <div className="prose lg:prose-lg mx-auto">
             <p className="text-gray-700 leading-relaxed">
-              FaaS (Freelancer as a Service) no es una red de freelancers, sino un equipo de trabajo consolidado con más de cuatro años de experiencia colaborando juntos. Nuestro modelo se adapta al crecimiento y a las necesidades de cada cliente, ampliando el equipo de forma estratégica según los requerimientos del proyecto. Mantenemos siempre el control directo tanto del equipo como de las tareas y proyectos in-house, garantizando una gestión eficiente sin recurrir a la subcontratación o externalización.
+              {t('faas.description')}
             </p>
           </div>
 
@@ -29,20 +32,20 @@ const FaaS = () => {
           >
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4">🤝</div>
-              <h3 className="text-xl font-semibold mb-2">Equipo Consolidado</h3>
-              <p className="text-gray-600">Más de 4 años trabajando juntos</p>
+              <h3 className="text-xl font-semibold mb-2">{t('faas.features.team.title')}</h3>
+              <p className="text-gray-600">{t('faas.features.team.description')}</p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4">📈</div>
-              <h3 className="text-xl font-semibold mb-2">Escalabilidad</h3>
-              <p className="text-gray-600">Adaptación según necesidades</p>
+              <h3 className="text-xl font-semibold mb-2">{t('faas.features.scalability.title')}</h3>
+              <p className="text-gray-600">{t('faas.features.scalability.description')}</p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4">🎯</div>
-              <h3 className="text-xl font-semibold mb-2">Control Directo</h3>
-              <p className="text-gray-600">Gestión in-house eficiente</p>
+              <h3 className="text-xl font-semibold mb-2">{t('faas.features.control.title')}</h3>
+              <p className="text-gray-600">{t('faas.features.control.description')}</p>
             </div>
           </motion.div>
         </motion.div>
