@@ -85,7 +85,7 @@ const Ready2Work = () => {
             
             <div className="relative h-48 md:h-full">
               <img
-                src="/images/collaboration.svg"
+                src="/src/assets/images/collaboration.svg"
                 alt="Team Collaboration"
                 className="object-contain rounded-lg w-full h-full"
               />

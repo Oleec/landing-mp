@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Columna del Logo */}
           <div className="flex flex-col">
             <img
-              src="/images/logo.svg"
+              src="/src/assets/images/logo.svg"
               alt="MentaPixel Logo"
               className="h-12 w-auto mb-4"
             />
