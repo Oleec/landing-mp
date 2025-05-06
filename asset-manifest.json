@@ -1,13 +1,31 @@
 {
   "files": {
-    "main.css": "/landing-mp/static/css/main.eca081cc.css",
-    "main.js": "/landing-mp/static/js/main.a4654fcd.js",
+    "main.css": "/landing-mp/static/css/main.f23933d9.css",
+    "main.js": "/landing-mp/static/js/main.65c17cf5.js",
+    "static/media/Freelancer as a Service 1.png": "/landing-mp/static/media/Freelancer as a Service 1.24b26f0e49bc6e71ffe2.png",
+    "static/media/ready2WorkSectionImg.png": "/landing-mp/static/media/ready2WorkSectionImg.3100c1417cc9981c3236.png",
+    "static/media/landingbanner-mentapixel.jpg": "/landing-mp/static/media/landingbanner-mentapixel.93ca8b2302f7be93838d.jpg",
+    "static/media/AIImplementationMobileWebApplications.png": "/landing-mp/static/media/AIImplementationMobileWebApplications.e10dee01361be2203eb4.png",
+    "static/media/SystemIntegrationCustomization.png": "/landing-mp/static/media/SystemIntegrationCustomization.98fdfbd03c2ed01978b9.png",
+    "static/media/ProjectManagement.png": "/landing-mp/static/media/ProjectManagement.b6ce1644d61994568882.png",
+    "static/media/DigitalTransformationOptimization.png": "/landing-mp/static/media/DigitalTransformationOptimization.cbcf899cc27b081eac69.png",
+    "static/media/TailoredSolutions&OtherServices.png": "/landing-mp/static/media/TailoredSolutions&OtherServices.f790de927afa4d8c384c.png",
+    "static/media/WebDevelopment.png": "/landing-mp/static/media/WebDevelopment.4c7a1807a1b6792b26d3.png",
+    "static/media/Ready2WorkSectionLogo.png": "/landing-mp/static/media/Ready2WorkSectionLogo.4dfacfd99048304ce5d3.png",
+    "static/media/mentapixel-logo-banner.png": "/landing-mp/static/media/mentapixel-logo-banner.dceacf4d17d551257296.png",
+    "static/media/programming-icon.svg": "/landing-mp/static/media/programming-icon.df566ecf094d81311f7964fdd245e935.svg",
+    "static/media/ai-icon.svg": "/landing-mp/static/media/ai-icon.cbf89814757ee5f04cbb2fdff2e0ca5d.svg",
+    "static/media/contactIcon.svg": "/landing-mp/static/media/contactIcon.bbfe218d18f366498c7750345644b78f.svg",
+    "static/media/Geo.svg": "/landing-mp/static/media/Geo.bc43060971be703d8e35dc10801f0c46.svg",
+    "static/media/workingHoursIcon.svg": "/landing-mp/static/media/workingHoursIcon.a144b32e7d467177f18ea6086e18336d.svg",
+    "static/media/design-icon.svg": "/landing-mp/static/media/design-icon.c0d96e25ae0943067a4ebf243a80edbe.svg",
     "index.html": "/landing-mp/index.html",
-    "main.eca081cc.css.map": "/landing-mp/static/css/main.eca081cc.css.map",
-    "main.a4654fcd.js.map": "/landing-mp/static/js/main.a4654fcd.js.map"
+    "static/media/emailIcon.svg": "/landing-mp/static/media/emailIcon.e41cd96056e75f26833b6967fcc3737c.svg",
+    "main.f23933d9.css.map": "/landing-mp/static/css/main.f23933d9.css.map",
+    "main.65c17cf5.js.map": "/landing-mp/static/js/main.65c17cf5.js.map"
   },
   "entrypoints": [
-    "static/css/main.eca081cc.css",
-    "static/js/main.a4654fcd.js"
+    "static/css/main.f23933d9.css",
+    "static/js/main.65c17cf5.js"
   ]
 }
