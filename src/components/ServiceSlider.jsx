@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import { motion, AnimatePresence } from 'framer-motion';
+import aiImgService from "../assets/images/AIImplementationMobileWebApplications.png";
+import digitalTransformationImgService from "../assets/images/DigitalTransformationOptimization.png";
+import systemIntegrationImgService from "../assets/images/SystemIntegrationCustomization.png";
+import tailoredSolutionsImgService from "../assets/images/TailoredSolutions&OtherServices.png";
+import projectManagementImgService from "../assets/images/ProjectManagement.png";
+import webImgServices from "../assets/images/WebDevelopment.png";
 
 const ServiceSlider = () => {
   const { t } = useTranslation();
@@ -9,40 +15,41 @@ const ServiceSlider = () => {
   const services = [
     {
       id: 1,
-      icon: "🗂️",
-      titleKey: "services.items.projectManagement.title",
-      itemsKey: "services.items.projectManagement.items"
+      image: projectManagementImgService,
+      titleKey: 'services.items.projectManagement.title',
+      itemsKey: 'services.items.projectManagement.items',
     },
     {
       id: 2,
-      icon: "🤖",
-      titleKey: "services.items.ai.title",
-      itemsKey: "services.items.ai.items"
+      image: aiImgService,
+      titleKey: 'services.items.ai.title',
+      itemsKey: 'services.items.ai.items',
     },
     {
       id: 3,
-      icon: "💻",
-      titleKey: "services.items.webDev.title",
-      itemsKey: "services.items.webDev.items"
+      image: systemIntegrationImgService,
+      titleKey: 'services.items.integration.title',
+      itemsKey: 'services.items.integration.items',
     },
     {
       id: 4,
-      icon: "🔗",
-      titleKey: "services.items.integration.title",
-      itemsKey: "services.items.integration.items"
+      image: webImgServices,
+      titleKey: 'services.items.webDev.title',
+      itemsKey: 'services.items.webDev.items',
     },
+
     {
       id: 5,
-      icon: "🚀",
-      titleKey: "services.items.transformation.title",
-      itemsKey: "services.items.transformation.items"
+      image: digitalTransformationImgService,
+      titleKey: 'services.items.transformation.title',
+      itemsKey: 'services.items.transformation.items',
     },
     {
       id: 6,
-      icon: "💡",
-      titleKey: "services.items.custom.title",
-      itemsKey: "services.items.custom.items"
-    }
+      image: tailoredSolutionsImgService,
+      titleKey: 'services.items.custom.title',
+      itemsKey: 'services.items.custom.items',
+    },
   ];
 
   const nextSlide = () => {
@@ -54,74 +61,96 @@ const ServiceSlider = () => {
   };
 
   return (
-    <section className="py-20 bg-white">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-16">{t('services.title')}</h2>
-        
-        <div className="relative max-w-4xl mx-auto">
-          {/* Navigation Buttons */}
-          <button
-            onClick={prevSlide}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-12 z-10 p-2 bg-white rounded-full shadow-lg hover:bg-gray-50 transition-colors"
-          >
-            ←
-          </button>
-          <button
-            onClick={nextSlide}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-12 z-10 p-2 bg-white rounded-full shadow-lg hover:bg-gray-50 transition-colors"
-          >
-            →
-          </button>
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center mb-16">{t('services.title')}</h2>
 
-          {/* Slides */}
-          <div className="relative h-[400px] overflow-hidden">
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={currentSlide}
-                initial={{ opacity: 0, x: 100 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -100 }}
-                transition={{ duration: 0.5 }}
-                className="absolute inset-0"
+          <div className="relative overflow-hidden">
+            {/* Buttons
+            <button
+                onClick={prevSlide}
+                className="absolute left-4 top-1/2 z-10 -translate-y-1/2 bg-white shadow-md p-2 rounded-full"
+            >
+              ←
+            </button>
+            <button
+                onClick={nextSlide}
+                className="absolute right-4 top-1/2 z-10 -translate-y-1/2 bg-white shadow-md p-2 rounded-full"
+            >
+              →
+            </button>
+            */}
+
+            {/* Slide wrapper */}
+            <div className="overflow-x-hidden">
+              <div
+                  className="flex transition-transform duration-500"
+                  style={{
+                    transform: `translateX(-${currentSlide * 80}%)`,
+                  }}
               >
-                <div className="bg-white p-8 rounded-xl shadow-lg h-full">
-                  <div className="text-6xl mb-6">{services[currentSlide].icon}</div>
-                  <h3 className="text-2xl font-bold mb-6">{t(services[currentSlide].titleKey)}</h3>
-                  <ul className="space-y-4">
-                    {t(services[currentSlide].itemsKey, { returnObjects: true }).map((item, index) => (
-                      <motion.li
-                        key={index}
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: index * 0.2 }}
-                        className="flex items-start"
+                {services.map((service, index) => (
+                    <motion.div
+                        key={service.id}
+                        className="min-w-[80%] mr-6 bg-white rounded-xl overflow-hidden flex"
+                    >
+                      {/* Left side */}
+                      <div
+                          className={`flex-1 p-6 text-white ${
+                              index % 2 === 0 ? 'bg-black' : 'bg-[#757575]'
+                          }`}
                       >
-                        <span className="text-primary mr-2">•</span>
-                        <span className="text-gray-700">{item}</span>
-                      </motion.li>
-                    ))}
-                  </ul>
-                </div>
-              </motion.div>
-            </AnimatePresence>
-          </div>
+                        <h3 className="text-2xl font-bold uppercase mb-4">
+                          {t(service.titleKey)}
+                        </h3>
+                        <ul className="space-y-3">
+                          {t(service.itemsKey, { returnObjects: true }).map((item, i) => (
+                              <li key={i} className="text-sm md:text-base">
+                                {item}
+                              </li>
+                          ))}
+                        </ul>
+                        <button onClick={nextSlide} className="mt-6 text-2xl hover:text-primary transition-colors">
+                          ➜
+                        </button>
+                      </div>
 
-          {/* Dots Navigation */}
-          <div className="flex justify-center mt-8 space-x-2">
-            {services.map((_, index) => (
+                      {/* Right side (icon or image) */}
+                      <div className="flex-1 bg-white">
+                        <img
+                            src={service.image}
+                            alt={t(service.titleKey)}
+                            className="w-full h-full object-cover"
+                        />
+                      </div>
+                    </motion.div>
+                ))}
+              </div>
+            </div>
+
+            {/* Dots */}
+            <div className="flex items-center justify-center mt-8 space-x-4">
               <button
-                key={index}
-                onClick={() => setCurrentSlide(index)}
-                className={`w-3 h-3 rounded-full transition-colors ${
-                  currentSlide === index ? 'bg-primary' : 'bg-gray-300'
-                }`}
-              />
-            ))}
+                  onClick={prevSlide}
+                  className="p-2 rounded-s bg-gray-400 hover:bg-gray-300 transition-colors"
+              >
+                ←
+              </button>
+
+              {services.map((_, index) => (
+                  <button
+                      key={index}
+                      onClick={() => setCurrentSlide(index)}
+                      className={`w-3 h-3 rounded-full transition-colors ${
+                          currentSlide === index ? 'bg-green-400' : 'bg-gray-300'
+                      }`}
+                  />
+              ))}
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
   );
 };
 
-export default ServiceSlider; 
+export default ServiceSlider;

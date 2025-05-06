@@ -1,82 +1,82 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import geoIcon from "../assets/images/Geo.svg";
+import contactIcon from "../assets/images/contactIcon.svg";
+import isoMp from "../assets/images/isoMpBlancoFooter.png";
+import mpLogoBlancoFooter from "../assets/images/mpLogoFooterBlanco.png";
+import emailIcon from "../assets/images/emailIcon.svg";
+import workingHoursIcon from "../assets/images/workingHoursIcon.svg";
 
 const Footer = () => {
   const { t } = useTranslation();
   
   return (
-    <footer className="bg-mentadark text-white py-12">
-      <div className="container mx-auto px-4">
-        {/* Contenido Principal del Footer */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-          {/* Columna del Logo */}
-          <div className="flex flex-col">
-            <img
-              src="/src/assets/images/logo.svg"
-              alt="MentaPixel Logo"
-              className="h-12 w-auto mb-4"
-            />
-            <p className="text-gray-300 max-w-md">
-              {t('footer.companyDescription')}
-            </p>
+      <footer className="bg-zinc-900 text-white py-12 px-6">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
+
+              {/* Left: Newsletter */}
+              <div className="flex flex-col gap-4 max-w-[80%]">
+                  <p className="text-sm leading-relaxed">
+                      Transformamos ideas en soluciones digitales innovadoras.<br />
+                      Nuestro compromiso es crear experiencias tecnológicas que impulsen el éxito de tu negocio.
+                  </p>
+                  <input
+                      type="email"
+                      placeholder="Email Address"
+                      className="bg-zinc-700 text-white px-4 py-2 rounded-md w-full focus:outline-none"
+                  />
+                  <div className="flex items-center gap-3">
+                      <button className="bg-[#99FF99] text-zinc-900 font-semibold px-4 py-2 rounded-md hover:bg-lime-300 transition">
+                          CONTÁCTANOS
+                      </button>
+                      <img src={isoMp} alt="ISO Logo" className="w-10 h-10" />
+                  </div>
+              </div>
+
+              {/* Center: Logo */}
+              <div className="flex flex-col items-center justify-end">
+                  <img src={mpLogoBlancoFooter} alt="Logo" className="mt-16" />
+              </div>
+
+              {/* Right: Contact Info */}
+              <div className="text-sm text-right">
+                  <h3 className="text-[#99FF99] font-semibold mb-3">Información de Contacto</h3>
+                  <ul className="space-y-2">
+                      <li className="flex gap-2 justify-end">
+                          <img src={geoIcon} alt="Location Icon" className="w-5 h-5 mt-1 text-lime-400" />
+                          <span>
+            Av. Principal 123, Torre Empresarial,<br />
+            Piso 15, Oficina 1502<br />
+            Ciudad de México, México
+          </span>
+                      </li>
+                      <li className="flex gap-2 justify-end">
+                          <img src={contactIcon} alt="Contact Icon" className="w-5 h-5 mt-1 text-lime-400" />
+                          <span>+52 (55) 1234-5678</span>
+                      </li>
+                      <li className="flex gap-2 justify-end">
+                          <img src={emailIcon} alt="Email Icon" className="w-5 h-5 mt-1 text-lime-400" />
+                          <span>contacto@mentapixel.com</span>
+                      </li>
+                      <li className="flex gap-2 justify-end">
+                          <img src={workingHoursIcon} alt="Working Hours Icon" className="w-5 h-5 mt-1 text-lime-400" />
+                          <span>
+            Lunes a Viernes: 9:00 AM - 6:00 PM<br />
+            Sábado: 9:00 AM - 1:00 PM
+          </span>
+                      </li>
+                  </ul>
+              </div>
           </div>
 
-          {/* Columna de Contacto */}
-          <div className="flex flex-col md:items-end">
-            <h3 className="text-xl font-semibold mb-4 text-mentagreen">
-              {t('footer.contactInfo')}
-            </h3>
-            <div className="space-y-3 md:text-right">
-              <p className="flex items-center md:justify-end gap-2">
-                <span className="text-mentagreen">📍</span>
-                <span>
-                  {t('footer.address.line1')}
-                  <br />
-                  {t('footer.address.line2')}
-                  <br />
-                  {t('footer.address.line3')}
-                </span>
-              </p>
-              <p className="flex items-center md:justify-end gap-2">
-                <span className="text-mentagreen">📞</span>
-                <span>{t('footer.phone')}</span>
-              </p>
-              <p className="flex items-center md:justify-end gap-2">
-                <span className="text-mentagreen">✉️</span>
-                <a 
-                  href={`mailto:${t('footer.email')}`}
-                  className="hover:text-mentagreen transition-colors"
-                >
-                  {t('footer.email')}
-                </a>
-              </p>
-              <p className="flex items-center md:justify-end gap-2">
-                <span className="text-mentagreen">⏰</span>
-                <span>
-                  {t('footer.hours.weekdays')}
-                  <br />
-                  {t('footer.hours.weekend')}
-                </span>
-              </p>
-            </div>
+          {/* Bottom Bar */}
+          <div className="border-t border-zinc-700 mt-10 pt-6 text-center text-xs text-zinc-400">
+              <p>© 2025 MentaPixel. Todos los derechos reservados.</p>
+              <p>Innovación digital para el crecimiento de tu empresa.</p>
           </div>
-        </div>
+      </footer>
 
-        {/* Línea Divisoria */}
-        <div className="border-t border-gray-700 my-8"></div>
 
-        {/* Derechos Reservados */}
-        <div className="text-center text-gray-400">
-          <p>
-            © {new Date().getFullYear()} MentaPixel. {t('footer.copyright')}
-            <br />
-            <span className="text-sm">
-              {t('footer.slogan')}
-            </span>
-          </p>
-        </div>
-      </div>
-    </footer>
   );
 };
 

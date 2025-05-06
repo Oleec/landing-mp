@@ -98,7 +98,7 @@
   },
   "faas": {
     "title": "Freelancer as a Service (FaaS)",
-    "description": "FaaS (Freelancer as a Service) is not a network of freelancers, but a consolidated work team with more than four years of experience working together. Our model adapts to the growth and needs of each client, strategically expanding the team according to project requirements. We always maintain direct control of both the team and the tasks and projects in-house, ensuring efficient management without resorting to subcontracting or outsourcing.",
+    "description": "FaaS (Freelancer as a Service) is not a network of freelancers, but a consolidated work team. Our model adapts to the growth and needs of each client, strategically scaling the team based on project requirements. We always maintain direct control over both the team and the tasks in-house, ensuring efficient management without relying on subcontracting or outsourcing.",
     "features": {
       "team": {
         "title": "Consolidated Team",

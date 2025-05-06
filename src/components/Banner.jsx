@@ -13,7 +13,7 @@ const Banner = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="relative min-h-screen bg-mentadark text-white overflow-hidden flex items-center justify-center">
+    <section className="relative min-h-screen bg-mentadark text-white overflow-hidden flex items-center justify-center mt-[-18rem] ">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
@@ -24,7 +24,7 @@ const Banner = () => {
       </div>
 
       {/* Language Selector */}
-      <div className="absolute top-4 right-4 z-20">
+      <div className="absolute top-4 right-4 z-20 mt-[20rem]">
         <LanguageSelector />
       </div>
 
